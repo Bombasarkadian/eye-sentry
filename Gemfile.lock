@@ -1,0 +1,59 @@
+PATH
+  remote: .
+  specs:
+    eye-sentry (0.1.0)
+      eye (~> 0.10)
+      sentry-raven (~> 2.7)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    celluloid (0.17.3)
+      celluloid-essentials
+      celluloid-extras
+      celluloid-fsm
+      celluloid-pool
+      celluloid-supervision
+      timers (>= 4.1.1)
+    celluloid-essentials (0.20.5)
+      timers (>= 4.1.1)
+    celluloid-extras (0.20.5)
+      timers (>= 4.1.1)
+    celluloid-fsm (0.20.5)
+      timers (>= 4.1.1)
+    celluloid-io (0.17.3)
+      celluloid (>= 0.17.2)
+      nio4r (>= 1.1)
+      timers (>= 4.1.1)
+    celluloid-pool (0.20.5)
+      timers (>= 4.1.1)
+    celluloid-supervision (0.20.6)
+      timers (>= 4.1.1)
+    eye (0.10.0)
+      celluloid (~> 0.17.3)
+      celluloid-io (~> 0.17.0)
+      kostya-sigar (~> 2.0.0)
+      state_machines
+      thor
+    faraday (0.15.4)
+      multipart-post (>= 1.2, < 3)
+    kostya-sigar (2.0.5)
+    multipart-post (2.0.0)
+    nio4r (2.3.1)
+    rake (10.5.0)
+    sentry-raven (2.7.4)
+      faraday (>= 0.7.6, < 1.0)
+    state_machines (0.5.0)
+    thor (0.20.3)
+    timers (4.2.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.7)
+  eye-sentry!
+  rake (~> 10.0)
+
+BUNDLED WITH
+   1.16.3
